@@ -1,5 +1,5 @@
-var http = require('http');
-var dt = require('./myfirstmodule');
+var http = require('http'); //module to create server
+var dt = require('./myfirstmodule');  //./ means current directory
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
